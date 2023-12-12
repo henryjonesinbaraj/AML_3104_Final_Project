@@ -1,3 +1,5 @@
+# Panel App application is designed and created to predict the targeted variable.
+
 import panel as pn
 import numpy as np
 import pickle
@@ -42,3 +44,5 @@ layout = pn.Column(
 
 # Show the app
 layout.servable()
+
+
